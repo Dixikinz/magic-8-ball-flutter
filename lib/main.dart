@@ -4,7 +4,7 @@ import 'dart:math';
 void main() => runApp(
       MaterialApp(
         home: Scaffold(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text('8ball', style: TextStyle(fontFamily: 'Pacifico'),),
           backgroundColor: Colors.deepPurple,
