@@ -3,8 +3,15 @@ import 'dart:math';
 
 void main() => runApp(
       MaterialApp(
-        home: BallPage(),
+        home: Scaffold(
+        backgroundColor: Colors.deepPurple,
+        appBar: AppBar(
+          title: Text('8ball', style: TextStyle(fontFamily: 'Pacifico'),),
+          backgroundColor: Colors.deepPurple,
+        ),
+        body: BallPage(),
       ),
+    ),
     );
 
 class BallPage extends StatelessWidget {
